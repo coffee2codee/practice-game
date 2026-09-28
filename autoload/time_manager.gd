@@ -1,4 +1,3 @@
-class_name TimeManager
 extends Node
 
 signal time_advanced(delta_seconds: float)

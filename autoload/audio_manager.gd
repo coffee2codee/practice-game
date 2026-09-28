@@ -1,13 +1,9 @@
-class_name AudioManagerClass
 extends Node
-
-## Manages cozy background music, environmental ambience, and interactive sound effects.
 
 @onready var sfx_player: AudioStreamPlayer = AudioStreamPlayer.new()
 @onready var ambience_player: AudioStreamPlayer = AudioStreamPlayer.new()
 
 func _ready() -> void:
-	# Add audio players to the tree safely
 	add_child(sfx_player)
 	add_child(ambience_player)
 

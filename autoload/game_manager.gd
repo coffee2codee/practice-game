@@ -1,4 +1,3 @@
-class_name GameManagerClass
 extends Node
 
 signal coins_changed(new_amount: int)

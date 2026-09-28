@@ -1,4 +1,3 @@
-class_name SaveManagerClass
 extends Node
 
 const SAVE_FILE_PATH := "user://gardengame_save.json"
@@ -11,7 +10,7 @@ func save_game_data(player_data: Dictionary) -> void:
 
 func load_game_data() -> Dictionary:
 	if not FileAccess.file_exists(SAVE_FILE_PATH):
-		return {} # Return empty to use default starting state
+		return {} 
 	
 	var file := FileAccess.open(SAVE_FILE_PATH, FileAccess.READ)
 	var json_string := file.get_as_text()
