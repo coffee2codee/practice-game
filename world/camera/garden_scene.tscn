@@ -2,10 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://gm5gg2mla1pr" path="res://ui/hud/hud.tscn" id="1_fw1ph"]
 [ext_resource type="PackedScene" uid="uid://nstgtmn4ujim" path="res://world/planting_plot.tscn" id="2_6cytj"]
+[ext_resource type="Script" uid="uid://c232lfldw6chh" path="res://ui/hud/hud.gd" id="2_kuybr"]
 
 [node name="GardenScene" type="Node3D" unique_id=986274574]
 
 [node name="HUD" parent="." unique_id=1755702280 instance=ExtResource("1_fw1ph")]
+script = ExtResource("2_kuybr")
 
 [node name="PlantingPlot" parent="." unique_id=1661931694 instance=ExtResource("2_6cytj")]
 
