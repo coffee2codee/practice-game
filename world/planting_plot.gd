@@ -7,10 +7,6 @@ signal plot_clicked(plot: PlantingPlot)
 var current_plant_data = null
 var is_occupied: bool = false
 
-func _ready() -> void:
-	# Placeholder interaction setup
+func _unhandled_input(event: InputEvent) -> void:
+	# Handled globally or via area input signals
 	pass
-
-func _unhandled_input(_camera: Camera3D, event: InputEvent, _position: Vector3, _normal: Vector3, _shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		emit_signal("plot_clicked", self)

@@ -1,9 +1,10 @@
 class_name PlantDefinition
 extends Resource
 
+enum Rarity { COMMON, UNCOMMON, RARE, LEGENDARY }
+
 @export var plant_id: String = "sunflower"
 @export var display_name: String = "Sunflower"
-@export enum Rarity { COMMON, UNCOMMON, RARE, LEGENDARY }
 @export var rarity: Rarity = Rarity.COMMON
 @export_multiline var description: String = "A bright yellow flower that loves the sun."
 @export var seed_cost: int = 50
