@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://gm5gg2mla1pr"]
+
+[node name="HUD" type="Control" unique_id=1755702280]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=409232480]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=1902051087]
+layout_mode = 2
+
+[node name="CoinLabel" type="Label" parent="MarginContainer/HBoxContainer" unique_id=1828005901]
+layout_mode = 2
+
+[node name="FertilizerLabel" type="Label" parent="MarginContainer/HBoxContainer" unique_id=497088211]
+layout_mode = 2
