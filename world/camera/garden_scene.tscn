@@ -3,13 +3,16 @@
 [ext_resource type="PackedScene" uid="uid://gm5gg2mla1pr" path="res://ui/hud/hud.tscn" id="1_fw1ph"]
 [ext_resource type="PackedScene" uid="uid://nstgtmn4ujim" path="res://world/planting_plot.tscn" id="2_6cytj"]
 [ext_resource type="Script" uid="uid://c232lfldw6chh" path="res://ui/hud/hud.gd" id="2_kuybr"]
+[ext_resource type="Script" uid="uid://cx4yjkg14geur" path="res://world/planting_plot.gd" id="4_ae8u0"]
 
 [node name="GardenScene" type="Node3D" unique_id=986274574]
+transform = Transform3D(-0.99525076, 0.09729474, -0.0031201686, -0.097303405, -0.99525094, 0.0027521132, -0.0028375897, 0.0030426409, 0.9999913, 0, 0, 0)
 
 [node name="HUD" parent="." unique_id=1755702280 instance=ExtResource("1_fw1ph")]
 script = ExtResource("2_kuybr")
 
 [node name="PlantingPlot" parent="." unique_id=1661931694 instance=ExtResource("2_6cytj")]
+script = ExtResource("4_ae8u0")
 
 [node name="GardenCamera" type="Camera3D" parent="." unique_id=1401511804]
 transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 6, 5)
