@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://nstgtmn4ujim"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5g6yk"]
+size = Vector3(2, 0.2, 2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5g6yk"]
+
+[node name="PlantingPlot" type="StaticBody3D" unique_id=1661931694]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1740224435]
+shape = SubResource("BoxShape3D_5g6yk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=822391446]
+transform = Transform3D(2, 0, 0, 0, 0.2, 0, 0, 0, 2, 0, 0, 0)
+mesh = SubResource("BoxMesh_5g6yk")
