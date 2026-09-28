@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="PlantDefinition" format=3 uid="uid://cx3oyimwcsctu"]
+
+[ext_resource type="Script" uid="uid://cnjtvp8xb3po6" path="res://data/plant_definition.gd" id="1_xjhtm"]
+
+[resource]
+script = ExtResource("1_xjhtm")
+plant_id = "lavender"
+display_name = "Lavender"
+rarity = 1
+description = "A fragrant purple herb that blooms with calming beauty."
+seed_cost = 75
+sell_value = 180
+growth_duration_seconds = 90.0
+metadata/_custom_type_script = "uid://cnjtvp8xb3po6"

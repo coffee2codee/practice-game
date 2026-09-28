@@ -18,6 +18,8 @@ config/icon="res://icon.svg"
 
 GameManager="*uid://di3hkwargmx5t"
 SaveManager="*uid://dymv8b85syxdh"
+TimeManager="*uid://ctrhwhl77nard"
+AudioManager="*uid://cci15t8g7b5tx"
 
 [display]
 

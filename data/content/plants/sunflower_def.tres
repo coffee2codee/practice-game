@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="PlantDefinition" format=3 uid="uid://b6pit0gwburar"]
+
+[ext_resource type="Script" uid="uid://cnjtvp8xb3po6" path="res://data/plant_definition.gd" id="1_u88wl"]
+
+[resource]
+script = ExtResource("1_u88wl")
+metadata/_custom_type_script = "uid://cnjtvp8xb3po6"
